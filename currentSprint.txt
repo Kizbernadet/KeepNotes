@@ -1,0 +1,42 @@
+🧭 Tes 10 prochaines tâches (Sprint 1 : "Les modèles de l’app Notes")
+🧩 Étape 1 — Préparation et planification
+
+Lister les entités (modèles) nécessaires dans ton app notes (par ex. : Note, Category, Tag, Reminder, Collaborator — selon ton projet).
+👉 Objectif : identifier les relations entre elles (OneToMany, ManyToMany…).
+
+Dessiner un petit diagramme UML des modèles pour visualiser les relations (même à la main ou avec PlantUML).
+
+🛠 Étape 2 — Implémentation des modèles
+
+Créer les modèles dans notes/models.py (avec leurs champs et relations).
+
+Définir les méthodes utiles dans les modèles (__str__, méthodes de calcul, etc.).
+
+Ajouter les métadonnées (Meta) pour un meilleur affichage dans l’admin.
+
+⚙️ Étape 3 — Migration et validation
+
+Créer les migrations : python manage.py makemigrations notes
+
+Appliquer les migrations : python manage.py migrate
+
+Vérifier les tables générées dans la base de données (SQLite par défaut) avec db.sqlite3 ou python manage.py dbshell.
+
+🧪 Étape 4 — Manipulations et tests basiques
+
+Créer des objets via le shell Django :
+python manage.py shell → importer les modèles → créer/afficher/modifier/supprimer des instances.
+
+Enregistrer les modèles dans l’admin Django (notes/admin.py) pour tester visuellement la gestion des données.
+
+🎯 Objectif du sprint
+
+À la fin de ce sprint, tu dois être capable de :
+
+Créer et configurer des modèles Django complets.
+
+Comprendre leurs relations (ForeignKey, ManyToMany, etc.).
+
+Les manipuler dans le shell et via l’interface admin.
+
+Produire les migrations sans erreurs.
