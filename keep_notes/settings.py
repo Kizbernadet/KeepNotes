@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+AUTH_USER_MODEL = 'accounts.User'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,9 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.accounts.apps.AccountsConfig',
-    'apps.notes.apps.NotesConfig',
-    'apps.core.apps.CoreConfig',
+    'apps.accounts',
+    'apps.notes',
 ]
 
 MIDDLEWARE = [
