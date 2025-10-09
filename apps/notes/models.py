@@ -43,6 +43,5 @@ class Attachment(models.Model):
     note = models.ForeignKey(Note, on_delete=models.CASCADE)
     file_path = models.FileField(upload_to='attachments/')
     uploaded_at = models.DateTimeField(auto_now_add=True)
-
     def __str__(self):
         return "New file"
