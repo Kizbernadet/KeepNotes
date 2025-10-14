@@ -8,5 +8,3 @@ def trial(request):
 
 def home(request):
     return render(request, 'core/index.html')
-    pass
-
