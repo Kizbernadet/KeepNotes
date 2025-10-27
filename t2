@@ -1,0 +1,292 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - KeepNotes Inspire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    KeepNotes Inspire
+                </a>
+                <div class="nav-links">
+                    <a href="index.html#features">Fonctionnalités</a>
+                    <a href="index.html#testimonials">Témoignages</a>
+                    <a href="index.html#pricing">Tarifs</a>
+                    <a href="about.html" class="active">À propos</a>
+                </div>
+                <a href="#" class="cta-button">Commencer gratuitement</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Notre histoire, notre mission</h1>
+                <p>Découvrez l'équipe passionnée derrière KeepNotes Inspire et notre engagement à révolutionner la prise de notes pour tous.</p>
+                <div class="hero-buttons">
+                    <a href="#team" class="cta-button">Rencontrer l'équipe</a>
+                    <a href="#values" class="secondary-button">
+                        <i class="fas fa-heart"></i> Nos valeurs
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-illustration">
+                    <div class="illustration-bg"></div>
+                    <div class="illustration-item item-1">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="illustration-item item-2">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="illustration-item item-3">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="illustration-item item-4">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre histoire</h2>
+                <p>Comment tout a commencé et où nous allons</p>
+            </div>
+            <div class="story-content">
+                <div class="story-text">
+                    <h3>Une idée simple, une vision ambitieuse</h3>
+                    <p>KeepNotes Inspire est né en 2018 d'une frustration partagée par nos fondateurs : les applications de prise de notes existantes étaient soit trop complexes, soit trop limitées, et aucune ne combinait véritablement design élégant et fonctionnalités puissantes.</p>
+                    <p>Nous avons commencé avec une petite équipe de développeurs passionnés et de designers visionnaires, déterminés à créer l'application de notes que nous souhaitions utiliser nous-mêmes.</p>
+                    <p>Aujourd'hui, nous sommes fiers de servir des milliers d'utilisateurs à travers le monde, mais notre mission reste la même : créer des outils qui libèrent la créativité et améliorent la productivité.</p>
+                </div>
+                <div class="story-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Utilisateurs actifs</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3M+</div>
+                        <div class="stat-label">Notes créées</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Pays desservis</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Temps de service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values" id="values">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos valeurs</h2>
+                <p>Les principes qui guident chaque décision que nous prenons</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Centré sur l'utilisateur</h3>
+                    <p>Nous plaçons nos utilisateurs au cœur de chaque décision de conception et de développement.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Confiance et sécurité</h3>
+                    <p>La confidentialité et la sécurité de vos données sont notre priorité absolue.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Innovation constante</h3>
+                    <p>Nous repoussons continuellement les limites pour améliorer votre expérience.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Transparence</h3>
+                    <p>Nous communiquons ouvertement sur nos pratiques et notre feuille de route.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre équipe</h2>
+                <p>Rencontrez les esprits créatifs derrière KeepNotes Inspire</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">SL</div>
+                    </div>
+                    <h3>Sarah Laurent</h3>
+                    <p class="member-role">CEO & Co-fondatrice</p>
+                    <p class="member-bio">Sarah a une passion pour créer des produits qui simplifient la vie des gens.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">MD</div>
+                    </div>
+                    <h3>Marc Dubois</h3>
+                    <p class="member-role">CTO & Co-fondateur</p>
+                    <p class="member-bio">Marc est responsable de l'architecture technique et de l'innovation produit.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">EP</div>
+                    </div>
+                    <h3>Élise Perrot</h3>
+                    <p class="member-role">Designer UX/UI</p>
+                    <p class="member-bio">Élise crée des interfaces intuitives qui rendent l'expérience utilisateur magique.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">TM</div>
+                    </div>
+                    <h3>Thomas Martin</h3>
+                    <p class="member-role">Développeur Full-Stack</p>
+                    <p class="member-bio">Thomas transforme les concepts en code robuste et performant.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-text">
+                    <h2>Notre mission</h2>
+                    <p>Nous croyons que chaque idée mérite d'être capturée, organisée et transformée en action. Notre mission est de fournir les outils les plus intuitifs et puissants pour libérer votre créativité et améliorer votre productivité.</p>
+                    <p>Que vous soyez étudiant, professionnel, créatif ou entrepreneur, nous voulons vous aider à donner vie à vos idées.</p>
+                    <a href="#" class="cta-button">Rejoindre notre mission</a>
+                </div>
+                <div class="mission-visual">
+                    <div class="visual-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h4>Notre vision</h4>
+                        <p>Devenir la plateforme de référence pour la capture et l'organisation d'idées à l'échelle mondiale.</p>
+                    </div>
+                    <div class="visual-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Notre croissance</h4>
+                        <p>Nous nous engageons à une croissance durable qui bénéficie à nos utilisateurs et à notre équipe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à nous rejoindre ?</h2>
+                <p>Commencez votre voyage avec KeepNotes Inspire dès aujourd'hui et découvrez comment nous pouvons transformer votre façon de travailler.</p>
+                <a href="#" class="cta-button cta-large">Créer mon compte gratuit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>KeepNotes Inspire</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Presse</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Produit</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#features">Fonctionnalités</a></li>
+                        <li><a href="index.html#pricing">Tarifs</a></li>
+                        <li><a href="#">Applications</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Confidentialité</a></li>
+                        <li><a href="#">Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 KeepNotes Inspire. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{% static 'core/js/script.js' %}"></script>
+</body>
+</html>
